@@ -151,3 +151,7 @@ No styleguide reference.
 
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
+
+/* benny defined */
+
+.doc_tb td,.doc_tb th{ border:#ccc 1px solid; padding:3px;}
