@@ -7,7 +7,7 @@ description: ""
 
 <img src="/images/avatar460-300x300.jpg" />
 
-Benny Chia是一名熟稔Web設計和中國文學的已婚北漂青年。
+Benny Chia是一名熟稔Web設計和中國當代文學的已婚北漂青年。
 
 ####Tag1: 愛讀書。
 所謂“不從雜書入，難從正書出”大概就是指的我這種人。  
