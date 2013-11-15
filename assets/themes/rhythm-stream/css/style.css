@@ -430,6 +430,7 @@ pre {
 /* post & page */
 .layout-page .tag_box {
   background: url('/assets/themes/the-minimum/skin/100-90-5-monochrome.png') repeat 0 0 #999999;
+  background:#dedcb9;
   padding: 0.8125em;
   list-style: none;
   -webkit-border-radius: 3px;
@@ -483,11 +484,11 @@ pre {
   border: 1px solid #336633;
 }
 .layout-page .tag_box a:hover span {
-  background-color: #e1e1e1;
+  background-color: #f5f4d3;
   border: 1px solid #77bb77;
 }
 .layout-page .tag_box span {
-  background-color: #fafafa;
+  background-color: #f6f5de;
   border: 1px solid #99cc99;
   padding: 1px 5px;
   -webkit-border-radius: 10px;
