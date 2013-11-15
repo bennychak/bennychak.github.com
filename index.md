@@ -32,7 +32,11 @@ When you don't need the samples anymore just delete the `_posts/core-samples` fo
 
 Here's a sample "posts list". -->
 
->“生活是流，流淌在身边，如同圣节。”
+>"We want to make things that are future friendly. By anticipating what's next, we can react to today's concerns but also build long-term value for people and businesses. The following ideas have been on our minds recently. Help us explore them further or suggest new ones."  
+>-[Future Friendly Thinking](http://futurefriend.ly)
+
+>“生活是流，流淌在身边，如同圣节。”  
+>-[Benny Chia](article/2007/02/11/流动的圣节)
 
 <!-- ## To-Do
 

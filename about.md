@@ -35,4 +35,4 @@ I have 7+ yrs experience in the field of web design. Now I’m passionate about 
 On the other hand, I’m very interested in Chinese Contemporary Literature and Linguistics, especially The New Period Literature since 1976. Yu Hua and Wang Xiaobo is my favorite creator.  
 Benny love various kinds of poetry, music and fine art. RHYTHM make everything connect and perfect.
 
-<img src="/images/ffly.png" style="width:152px" />
+<img src="/images/futurefriendly.png" style="width:160px" />
