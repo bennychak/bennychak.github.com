@@ -24,7 +24,7 @@ Calculation should be done via  http://j.mp/rNg5uA
 No styleguide reference.
 */
 body {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+  font-family:Helvetica,Arial,Sans-Serif;
   font-size: 1em;
   line-height: 1.625em;
 }
@@ -51,8 +51,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: junctionregularRegular, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
-  font-weight: bold;
+  font-family:Helvetica,Arial,Sans-Serif;
+  font-weight: normal;
 }
 h1, .h1 {
   font-size: 42px;
@@ -213,7 +213,7 @@ pre {
 /* HEADER
 --------------------------------------------------------------------------------- */
 .the-header .logo {
-  font-family: junctionregularRegular, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, "MS PGothic", Osaka, Sans-Serif;
+  font-family: Helvetica,Arial,Sans-Serif;
   margin: 0;
 }
 .the-header .logo a:visited {
@@ -221,6 +221,7 @@ pre {
 }
 .the-header .nav-global {
   text-transform: uppercase;
+  margin-top:15px;
 }
 .the-header .nav-global .forkme {
   position: relative;
@@ -232,13 +233,13 @@ pre {
   background: url('/assets/themes/the-minimum/skin/100-90-5-monochrome.png');
   background-repeat: repeat;
   background-position: 0 0;
-  background-color: #BADA55;
+  background-color: #be6700;
   margin-bottom: 1.625em;
   padding-top: 1.625em;
   padding-bottom: 1.625em;
 }
 .unit-article header h1 {
-  color: #2d2d2d;
+  color: #dedcb9;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -538,11 +539,10 @@ pre {
   margin-bottom: 0;
 }
 .the-header .unit-inner {
-  width: 15em;
   margin-top: 1.625em;
   margin-bottom: 1.625em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .the-header .logo a {
   font-size: 32px;
@@ -552,53 +552,48 @@ pre {
 .unit-article .entry-content,
 .unit-article .misc-content,
 .unit-article .unit-foot-inner {
-  width: 15em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .unit-article .unit-head-inner .meta {
   margin-bottom: 1.625em;
 }
 .layout-page .unit-body .unit-body-inner {
-  width: 15em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .layout-page .unit-body .article-list .meta {
   margin-bottom: 1.625em;
 }
 .the-footer .unit-foot {
-  width: 15em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 /*
  	IE
 */
 .ie .the-header .unit-inner {
-  width: 60em;
   margin-top: 1.625em;
   margin-bottom: 1.625em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .ie .the-header .logo {
-  width: 26.25em;
+
   float: left;
 }
 .ie .the-header .nav-global {
   margin-top: 50px;
   text-align: right;
-  width: 26.25em;
+
   float: right;
 }
 .ie .unit-article .unit-head-inner,
 .ie .unit-article .entry-content,
 .ie .unit-article .misc-content,
 .ie .unit-article .unit-foot-inner {
-  width: 60em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .ie .unit-article .unit-head-inner h1,
 .ie .unit-article .entry-content h1,
@@ -637,21 +632,19 @@ pre {
   float: right;
 }
 .ie .layout-page .unit-body .unit-body-inner {
-  width: 43.125em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .ie .layout-page .unit-body .article-list {
-  width: 43.125em;
+
 }
 .ie .layout-page .unit-body .article-list .meta {
   width: 20.625em;
   float: right;
 }
 .ie .the-footer .unit-foot {
-  width: 60em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 /*
 	Smartphone
@@ -666,18 +659,16 @@ pre {
 */
 @media only screen and (min-width: 480px) {
   .the-header .unit-inner {
-    width: 26.25em;
+
   }
   .the-header .logo a {
     font-size: 42px;
     line-height: 52px;
-    letter-spacing: -1px;
+
   }
   .the-header .nav-global {
     margin-top: 1.625em;
-    letter-spacing: -0.31em;
-    *letter-spacing: normal;
-    word-spacing: -0.43em;
+
     list-style: none;
     padding-left: 0;
   }
@@ -690,9 +681,9 @@ pre {
     *display: inline;
     zoom: 1;
     line-height: normal;
-    letter-spacing: normal;
+
     margin-right: 16px;
-    word-spacing: normal;
+
     vertical-align: middle;
   }
   .the-header .nav-global li:last-child {
@@ -702,19 +693,19 @@ pre {
   .unit-article .entry-content,
   .unit-article .misc-content,
   .unit-article .unit-foot-inner {
-    width: 26.25em;
+
   }
   .unit-article .unit-foot .gotop {
     margin-top: 1.625em;
   }
   .layout-page .unit-body .unit-body-inner {
-    width: 26.25em;
+
   }
   .layout-page .unit-body .article-list {
-    width: 26.25em;
+
   }
   .the-footer .unit-foot {
-    width: 26.25em;
+
   }
 }
 /*
@@ -722,34 +713,39 @@ pre {
 */
 @media only screen and (min-width: 768px) {
   .the-header .unit-inner {
-    width: 43.125em;
   }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
   .unit-article .unit-foot-inner {
-    width: 43.125em;
+    margin-left:auto;
+    margin-right:auto;
+    width:760px;
+
   }
   .unit-article .unit-head-inner .meta {
     margin-bottom: 0;
     text-align: right;
-    width: 20.625em;
+
     float: right;
   }
   .layout-page .unit-body .unit-body-inner {
-    width: 43.125em;
+
   }
   .layout-page .unit-body .article-list {
-    width: 43.125em;
+
   }
   .layout-page .unit-body .article-list .meta {
     margin-bottom: 0;
     text-align: right;
-    width: 20.625em;
+
     float: right;
   }
   .the-footer .unit-foot {
-    width: 43.125em;
+    margin-left:auto;
+    margin-right:auto;
+    width:760px;
+
   }
 }
 /*
@@ -757,45 +753,45 @@ pre {
 */
 @media only screen and (min-width: 1280px) {
   .the-header .unit-inner {
-    width: 60em;
+
   }
   .the-header .logo {
-    width: 26.25em;
+
     float: left;
   }
   .the-header .nav-global {
     margin-top: 21px;
     text-align: right;
-    width: 26.25em;
+
     float: right;
   }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
   .unit-article .unit-foot-inner {
-    width: 43.125em;
+
   }
   .unit-article .unit-foot .pagination {
     float: left;
-    width: 37.5em;
+
   }
   .unit-article .unit-foot .gotop {
     float: right;
     margin-top: 0;
     text-align: right;
-    width: 20.625em;
+
   }
   .layout-page .unit-body .unit-body-inner {
-    width: 43.125em;
+
   }
   .layout-page .unit-body .article-list {
-    width: 43.125em;
+
   }
   .layout-page .unit-body .article-list .meta {
-    width: 20.625em;
+
   }
   .the-footer .unit-foot {
-    width: 60em;
+
   }
 }
 /*
@@ -803,38 +799,39 @@ pre {
 */
 @media only screen and (min-width: 1410px) {
   .the-header .unit-inner {
-    width: 88.125em;
+    width:1400px;
+    margin-left:auto;
+    margin-right:auto;
   }
   .the-header .logo {
-    width: 43.125em;
+
   }
   .the-header .nav-global {
-    width: 43.125em;
+
   }
   .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content {
-    width: 43.125em;
+
   }
   .unit-article .unit-foot-inner {
-    width: 88.125em;
+
   }
   .unit-article .unit-foot .pagination {
-    width: 54.375em;
+
   }
   .unit-article .unit-foot .gotop {
-    padding-right: 360px;
-    width: 9.375em;
+
   }
   .layout-page .unit-body .unit-body-inner {
-    width: 43.125em;
+
   }
   .layout-page .unit-body .article-list {
-    width: 43.125em;
+
   }
   .layout-page .unit-body .article-list .meta {
-    width: 20.625em;
+
   }
   .the-footer .unit-foot {
-    width: 88.125em;
+
   }
   .the-footer .unit-inner h1,
   .the-footer .unit-inner h2,
@@ -846,7 +843,6 @@ pre {
   .the-footer .unit-inner ol,
   .the-footer .unit-inner dl,
   .the-footer .unit-inner blockquote {
-    margin-left: 360px;
-    margin-right: 360px;
+
   }
 }
