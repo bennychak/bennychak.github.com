@@ -1,6 +1,6 @@
 ---
 layout: page
-title: This is my life.
+title: A Designer.
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
