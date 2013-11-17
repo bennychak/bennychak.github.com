@@ -5,7 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-<img src="/images/avatar460-300x300.jpg" />
+<img src="/images/avatar300.jpg" />
 
 Benny Chia(another id: bienfantaisie)，是一名熟稔Web設計和中國當代文學的已婚北漂青年。
 
