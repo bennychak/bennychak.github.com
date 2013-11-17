@@ -55,5 +55,4 @@ tags : [翻译, Future Friendly, 响应式设计]
 
 浪费用户的流量和时间本质上是对用户的不尊重。而处理性能问题就是处理对待用户的态度问题。如果你的页面尊重了用户的时间和流量，他们就会认为你的页面的体验更加友好。“优秀的性能产生优秀的设计”，我们可以在这方面做得更好。
 
-[Brad Frost](http://bradfrostweb.com), 2013.1.28, “Performance as Design”,   
-[http://bradfrostweb.com/blog/post/performance-as-design](http://bradfrostweb.com/blog/post/performance-as-design)
+[Brad Frost](http://bradfrostweb.com), 2013.1.28, “[Performance as Design](http://bradfrostweb.com/blog/post/performance-as-design)”
