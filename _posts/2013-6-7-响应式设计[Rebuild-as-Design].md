@@ -1,6 +1,6 @@
 ---
 layout: post
-category : Talk
+category : Share
 tagline: "Supporting tagline"
 tags : [响应式设计, Future Friendly, 分享]
 ---
