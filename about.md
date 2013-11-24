@@ -7,7 +7,7 @@ description: ""
 
 <img src="/images/avatar300.jpg" />
 
-Benny Chia(another id: bienfantaisie)，是一名熟稔Web設計和中國當代文學的已婚北漂青年。
+Benny Chia(班尼，吃啊)，是一名熟稔Web設計和中國當代文學的已婚吃货北漂青年。
 
 ####Tag1: 愛讀書。
 少從文，由讀當代小說和散文進，深信“智、趣、愛”為人生三大理想。而後對文藝理論感興趣，尤喜朱光潛（孟實）先生的美學文章。  
