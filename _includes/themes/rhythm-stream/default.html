@@ -100,10 +100,10 @@
 <script type="text/javascript" src="/assets/script/jquery.js"></script>
 <script type="text/javascript" src="/google-code-prettify/prettify.js"></script>
 <script type="text/javascript">
-$(function(){
-	window.prettyPrint && prettyPrint();
-	$('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
-});
+$(window).load(function(){
+    $("pre").addClass("prettyprint linenums");
+    prettyPrint();
+})
 </script>
 
   {% include JB/analytics %}
