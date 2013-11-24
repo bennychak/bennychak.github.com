@@ -44,3 +44,5 @@ tagline: Supporting tagline
 <ul class="posts">
 	<li><span>Twitter:</span> <a href="http://twitter.com/future_friendly">@future_friendly</a></li>
 </ul>
+
+<img src="/images/futurefriendly.png" style="width:160px" />
