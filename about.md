@@ -28,8 +28,8 @@ Future Friendly设计伦理是一场精致而美丽的实验，也许意味着�
 
 Hello, I’m Benny Chia, currently live in Beijing.  
 I’m focusing on Web Design and Chinese Literature.  
-I have 7+ yrs experience in the field of web design. Now I’m passionate about “Future Friendly Solution” as Content Strategy and Responsive Web Design. I’m glad to learn and share all about these topics.  
-On the other hand, I’m very interested in Chinese Contemporary Literature and Linguistics, especially The New Period Literature since 1976. Yu Hua and Wang Xiaobo is my favorite creator.  
+I have 7+ yrs experience in the field of web design. Now I’m passionate about “[Future Friendly](http://futurefriend.ly) Solution” as Content Strategy and Responsive Web Design. I’m glad to learn and share all about these topics.  
+On the other hand, I’m very interested in Chinese Contemporary Literature and Linguistics, especially The New Period Literature since 1976. [Yu Hua](http://en.wikipedia.org/wiki/Yu_Hua_(author)) and [Wang Xiaobo](http://en.wikipedia.org/wiki/Wang_Xiaobo) is my favorite creator.  
 Benny love various kinds of poetry, music and fine art. RHYTHM make everything connect and perfect.
 
 -------------------
