@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Designer.
+title: Life is a stream.
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -32,7 +32,10 @@ When you don't need the samples anymore just delete the `_posts/core-samples` fo
 
 Here's a sample "posts list". -->
 
->*"We want to make things that are future friendly. By anticipating what's next, we can react to today's concerns but also build long-term value for people and businesses. The following ideas have been on our minds recently. Help us explore them further or suggest new ones."*  
+>*“人在这个世界里所能成就的最伟大的事业，就是睁着眼睛去看，然后把所见到的东西老老实实地说出来。”*  
+>*-朱光潜：《朱光潜美学文集》第一卷，上海文艺出版社，1982年出版，第134页*
+
+>*“我们的设计应该对未来更加友好一些。我们应该通过对未来的预测，选择适合的技术，为人们创造出既满足今天需要，又能够适应未来变化的产品或价值。”*  
 >*-[Future Friendly Thinking](http://futurefriend.ly)*
 
 >*“生活是流，流淌在身边，如同圣节。”*  
