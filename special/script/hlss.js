@@ -7,10 +7,10 @@ $(function(){
 			});
 	$('#bt_toggleall').toggle(function(){
 		$('.m').removeClass('f1 f2').addClass('f3');
-		$('.s',this).text('Expand');
+		$('.s',this).text('View');
 		},function(){
 			$('.m').removeClass('f1 f2 f3');
-			$('.s',this).text('Shrink');
+			$('.s',this).text('Hide');
 			}).click(function(){
 				$('#result').hide();
 				});
@@ -68,7 +68,7 @@ function restart(){
 	$('.m').removeClass('f1 f2').addClass('f3').find('.ac').removeClass('ac');
 	$('.direction').attr('disabled',false);
 	$('#bt_num').attr('count',1);
-	$('#cur').addClass('t').text('Fold');
+	$('#cur').addClass('t').text('Count');
 	$('#bt_count').attr('disabled',true);
 	$('.wshade,#active,.return,.start,.showall,.random,#result').hide();
 	$('#shade').addClass('cross');
@@ -79,7 +79,7 @@ function num(){
 	$('#shade').addClass('cross');
 	$('.m').removeClass('f1 f2').addClass('f3');
 	var a = $('#cur').text();
-	if(a == 'Fold'){
+	if(a == 'Count'){
 		a = 0;
 		}
 	a++;
@@ -98,7 +98,7 @@ function count(){
 	if(t3<0){
 		result();
 		$('.start').hide();
-		$('#cur').addClass('t').text('Fold')
+		$('#cur').addClass('t').text('Count')
 		$('.return,.showall,.random').show();
 		$('#shade').removeClass('cover');
 		return false;
