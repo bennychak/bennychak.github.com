@@ -70,7 +70,7 @@ function restart(){
 	$('#bt_num').attr('count',1);
 	$('#cur').addClass('t').text('Count');
 	$('#bt_count').attr('disabled',true);
-	$('.wshade,#active,.return,.start,.showall,.random,#result').hide();
+	$('.wshade,.return,.start,.showall,.random,#result').hide();
 	$('#shade').addClass('cross');
 	rmflight();
 	}
