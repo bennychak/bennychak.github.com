@@ -7,7 +7,7 @@ a:hover{color:#933}
 input{cursor:pointer}
 .tx12{font-size:12px}
 .kai{font-family:Helvetica,Arial}
-.t{font-family:Helvetica,Arial}
+.t{font-family:Microsoft Yahei}
 .tx_a{font-family:Helvetica,Arial}
 .h1{height:45px;line-height:45px;font-size:300%;border:#000 1px solid;background:rgba(255,255,154,.1);padding:0 10px;position:relative;top:10px;-webkit-transform:rotate(-10deg);-moz-transform:rotate(-10deg);-o-transform:rotate(-10deg);-ms-transform:rotate(-10deg);transform:rotate(-10deg)}
 .cross{pointer-events:none}
@@ -39,7 +39,7 @@ input{cursor:pointer}
 #num,#num:hover{color:#933}
 .w{ height:350px;}
 .m{z-index:9;width:0;height:0;position:relative;left:50%;top:100px;-webkit-animation:circle 20s linear infinite;-moz-animation:circle 20s linear infinite;-o-animation:circle 20s linear infinite;-ms-animation:circle 20s linear infinite;animation:circle 20s linear infinite}
-.d{position:absolute;line-height:198px;text-align:center;font-size:800%;z-index:2}
+.d{position:absolute;line-height:198px;text-align:center;font-size:750%;z-index:2}
 .r{width:198px;height:198px;border:#b0001e 1px solid;border-radius:0 20px;box-shadow:rgba(255,255,255,.5) 0 0 0 2px inset;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);background:-webkit-gradient(linear,0 100%,100% 0,color-stop(0,#fbf8e2),color-stop(100%,#fff398));background:-moz-gradient(linear,0 100%,100% 0,color-stop(0,#fbf8e2),color-stop(100%,#fff398));background:-o-gradient(linear,0 100%,100% 0,color-stop(0,#fbf8e2),color-stop(100%,#fff398));background:-ms-gradient(linear,0 100%,100% 0,color-stop(0,#fbf8e2),color-stop(100%,#fff398));background:gradient(linear,0 100%,100% 0,color-stop(0,#fbf8e2),color-stop(100%,#fff398))}
 .r:hover,.r.active{background:#fbf8e2}
 .shade{width:100%;height:100%;position:absolute;background:#b0001e;z-index:9;left:0;top:0;opacity:0;cursor:pointer}
