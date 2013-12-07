@@ -108,7 +108,7 @@ input{cursor:pointer}
 .shi,.shilight{width:350px;height:350px;background:rgba(0,0,0,.1);opacity:.8;border-radius:50px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:circle 20s linear infinite;-moz-animation:circle 20s linear infinite;-o-animation:circle 20s linear infinite;-ms-animation:circle 20s linear infinite;animation:circle 20s linear infinite}
 .wshade_w{ height:250px}
 .wshade{position:relative; width:100%; left:0; z-index:100;text-align:center;display:-webkit-box;display:-moz-box;display:-o-box;display:-ms-box;display:box;-webkit-box-align:center;-moz-box-align:center;-o-box-align:center;-ms-box-align:center;box-align:center;-webkit-box-pack:center;-moz-box-pack:center;-o-box-pack:center;-ms-box-pack:center;box-pack:center}
-.control{ padding-bottom:50px;z-index:10;position:relative;border-radius:20px;display:-webkit-box;display:-moz-box;display:-o-box;display:-ms-box;display:box;-webkit-box-align:center;-moz-box-align:center;-o-box-align:center;-ms-box-align:center;box-align:center;-webkit-box-pack:center;-moz-box-pack:center;-o-box-pack:center;-ms-box-pack:center;box-pack:center}
+.control{ padding-top:100px; padding-bottom:50px;z-index:10;position:relative;border-radius:20px;display:-webkit-box;display:-moz-box;display:-o-box;display:-ms-box;display:box;-webkit-box-align:center;-moz-box-align:center;-o-box-align:center;-ms-box-align:center;box-align:center;-webkit-box-pack:center;-moz-box-pack:center;-o-box-pack:center;-ms-box-pack:center;box-pack:center}
 #shade{width:100%;height:800px;position:absolute; top:0; left:0;z-index:99}
 .bowl{display:block;position:absolute;width:0;height:0;left:50%;top:20%;cursor:pointer;-webkit-animation:zoom .5s ease-in-out infinite;-moz-animation:zoom .5s ease-in-out infinite;-o-animation:zoom .5s ease-in-out infinite;-ms-animation:zoom .5s ease-in-out infinite;animation:zoom .5s ease-in-out infinite}
 .bowl span,.alin span{display:block;white-space:nowrap}
@@ -398,4 +398,5 @@ to{transform:rotate(-45deg) skewX(-18deg) scale(1.34) translateY(-25px)}}
 }
 .ui-link,.ui-body-c .ui-link{color:#000}
 .ui-link:hover,.ui-body-c .ui-link:hover,.ui-link:visited,.ui-body-c .ui-link:visited{color:#933}
+.d_comment{ max-width:760px; margin:0 auto;}
 #CssGaga{content:"20130519171347,249"}
