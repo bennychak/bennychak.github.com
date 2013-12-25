@@ -7,7 +7,8 @@ tagline: Supporting tagline
 
 <h2>Theory</h2>
 <ul class="posts">
-	<li><a href="http://futurefriend.ly" target="_blank">面向未来的友好设计 Future Friendly League</a></li>
+	<li><a href="http://futurefriend.ly" target="_blank">Future Friendly</a></li>
+	<li><a href="Future-Friendly" target="_blank">面向未来的友好设计（翻译）</a></li>
 </ul>
 
 <h2>Blogs</h2>
