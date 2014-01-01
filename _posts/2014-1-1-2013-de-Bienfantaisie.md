@@ -1,6 +1,6 @@
 ---
 layout: post
-category : Article
+category : Life
 tagline: "Supporting tagline"
 tags : [生活]
 ---
