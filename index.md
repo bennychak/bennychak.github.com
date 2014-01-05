@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 一个爱写字的设计师。
+title: 以讀書為第一要務，矢志于文字，寓樂于設計。
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
