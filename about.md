@@ -5,7 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-####Benny Chia(班尼，吃啊)
+####Name: Benny Chia(班尼，吃啊)
 一九八五年出生，籍貫遼寧遼陽，出生於河南鄭州，現為一名熟稔Web設計和中國當代文學的已婚吃貨北漂青年。
 
 ####Tag1: 愛讀書。
