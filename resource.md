@@ -5,7 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-<h2>Core</h2>
+<h2>Manifesto</h2>
 <ul class="posts">
 	<li><a href="http://futurefriend.ly" target="_blank">Future Friendly</a></li>
 	<li><a href="Future-Friendly" target="_blank">面向未来的友好设计（中文）</a></li>
