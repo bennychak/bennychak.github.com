@@ -38,7 +38,7 @@ Here's a sample "posts list". -->
 >*-约翰·罗斯金 (孟实先生译)*
 
 >*"We want to make things that are future friendly. By anticipating what's next, we can react to today's concerns but also build long-term value for people and businesses."*  
->*-Future Friendly Thinking*
+>*-Future Friendly Thinking*  
 >*“我们的设计应该对未来更加友好一些。我们应该通过对未来的预测，选择适合的技术，为人们创造出既满足今天需要，又能够适应未来变化的产品或价值。”*  
 >*-面向未来的友好设计思想 (Benny Chia译)*
 
