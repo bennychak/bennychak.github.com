@@ -1,24 +1,24 @@
 ---
 layout: page
-title: Future Friendly Resource
+title: 面向未来的友好设计
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-<h2>Manifesto</h2>
+<h2>思想纲领</h2>
 <ul class="posts">
-	<li><a href="http://futurefriend.ly" target="_blank">Future Friendly</a></li>
+	<li><a href="http://futurefriend.ly" target="_blank">Future Friendly Design</a></li>
 	<li><a href="Future-Friendly" target="_blank">面向未来的友好设计（中文）</a></li>
 </ul>
 
-<h2>Blogs</h2>
+<h2>博客</h2>
 <ul class="posts">
 	<li><a href="http://ethanmarcotte.com" target="_blank">响应式Web设计创始人 Ethan Marcotte</a></li>
 	<li><a href="http://www.lukew.com" target="_blank">移动优先的先行者 Luke Wroblewski</a></li>
 	<li><a href="http://bradfrostweb.com" target="_blank">FFLY的概念的主要倡导者 Brad Frost</a></li>
 </ul>
 
-<h2>Books</h2>
+<h2>书籍</h2>
 <ul class="posts">
 	<li>Erin Kissane: <a href="http://www.abookapart.com/products/the-elements-of-content-strategy" target="_blank"><i>"内容策略的元素 The Elements of Content Strategy"</i></a></li>
 	<li>Ethan Marcotte: <a href="http://www.abookapart.com/products/responsive-web-design" target="_blank"><i>"响应式设计 Responsive Web Design"</i></a></li>
@@ -26,7 +26,7 @@ tagline: Supporting tagline
 	<li>Karen Mcgrane: <a href="http://www.abookapart.com/products/content-strategy-for-mobile" target="_blank"><i>"移动设备上的内容策略 Content Strategy for Mobile"</i></a></li>
 </ul>
 
-<h2>Article</h2>
+<h2>文章</h2>
 <ul class="posts">
 	<li><a href="http://alistapart.com/article/dao" target="_blank">JOHN ALLSOPP: 网页设计之道 A Dao of Web Design(2000.4.7)</a></li>
 	<li><a href="http://www.lukew.com/ff/entry.asp?933" target="_blank">Luke Wroblewski: 移动优先 Mobile First(2009.11.3)</a></li>
@@ -35,13 +35,13 @@ tagline: Supporting tagline
 	<li><a href="http://www.markboulton.co.uk/journal/responsive-summit-workflow" target="_blank">Mark Boulton: 关于响应式设计的工作流程 Responsive Summit: Workflow(2012.2.24)</a></li>
 </ul>
 
-<h2>Slides</h2>
+<h2>PPT</h2>
 <ul class="posts">
 	<li><a href="http://www.slideshare.net/bytte/responsive-web-design-10389263?from_search=3">Thomas Byttebier: 响应式Web设计 Responsive web design(2011.11.29)</a></li>
 	<li><a href="http://www.slideshare.net/pkattera/design-process-for-responsive-web-design">Pon Kattera: 响应式设计时代的设计流程 Design Process in the Responsive Age(2012.6.21)</a></li>
 </ul>
 
-<h2>Follow</h2>
+<h2>公共帐号</h2>
 <ul class="posts">
 	<li><span>Twitter:</span> <a href="http://twitter.com/future_friendly">@future_friendly</a></li>
 </ul>
