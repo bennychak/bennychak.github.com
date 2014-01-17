@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 面向未来的友好设计
+title: 面向未来的友好设计(Future Friendly)
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
 <h2>思想纲领</h2>
 <ul class="posts">
-	<li><a href="http://futurefriend.ly" target="_blank">Future Friendly Design</a></li>
+	<li><a href="http://futurefriend.ly" target="_blank">Future Friendly</a></li>
 	<li><a href="Future-Friendly" target="_blank">面向未来的友好设计（中文）</a></li>
 </ul>
 
