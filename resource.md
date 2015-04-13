@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 面向未来的友好设计(Future Friendly)
+title: Future Friendly
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
