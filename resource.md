@@ -5,17 +5,17 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-<h2>思想纲领</h2>
+<h2>思想</h2>
 <ul class="posts">
 	<li><a href="http://futurefriend.ly" target="_blank">Future Friendly</a></li>
-	<li><a href="Future-Friendly" target="_blank">面向未来的友好设计（中文）</a></li>
+	<li><a href="Future-Friendly" target="_blank">面向未来的友好设计</a></li>
 </ul>
 
 <h2>博客</h2>
 <ul class="posts">
 	<li><a href="http://ethanmarcotte.com" target="_blank">响应式Web设计创始人 Ethan Marcotte</a></li>
 	<li><a href="http://www.lukew.com" target="_blank">移动优先的先行者 Luke Wroblewski</a></li>
-	<li><a href="http://bradfrostweb.com" target="_blank">FFLY的概念的主要倡导者 Brad Frost</a></li>
+	<li><a href="http://bradfrostweb.com" target="_blank">“面向未来的友好设计”概念的主要倡导者 Brad Frost</a></li>
 </ul>
 
 <h2>书籍</h2>
@@ -35,7 +35,7 @@ tagline: Supporting tagline
 	<li><a href="http://www.markboulton.co.uk/journal/responsive-summit-workflow" target="_blank">Mark Boulton: 关于响应式设计的工作流程 Responsive Summit: Workflow(2012.2.24)</a></li>
 </ul>
 
-<h2>PPT</h2>
+<h2>演讲Slides</h2>
 <ul class="posts">
 	<li><a href="http://www.slideshare.net/bytte/responsive-web-design-10389263?from_search=3">Thomas Byttebier: 响应式Web设计 Responsive web design(2011.11.29)</a></li>
 	<li><a href="http://www.slideshare.net/pkattera/design-process-for-responsive-web-design">Pon Kattera: 响应式设计时代的设计流程 Design Process in the Responsive Age(2012.6.21)</a></li>
