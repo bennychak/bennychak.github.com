@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Special
+title: Lab
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
