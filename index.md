@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 夾竹桃樹。海棠花海。
+title: Home
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
