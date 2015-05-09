@@ -8,7 +8,7 @@ tagline: Supporting tagline
 <h2>思想</h2>
 <ul class="posts">
 	<li><a href="http://futurefriend.ly" target="_blank">Future Friendly</a></li>
-	<li><a href="Future-Friendly" target="_blank">面向未来的友好设计</a></li>
+	<li><a href="http://www.futurefriendly.cn" target="_blank">面向未来的友好设计</a></li>
 </ul>
 
 <h2>博客</h2>
