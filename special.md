@@ -7,14 +7,15 @@ tagline: Supporting tagline
 
 <h2>Lab</h2>
 <ul class="posts">
-    <li><a href="http://www.bennychia.com/pku-en-2015b" target="_blank">Peking University 5（林建华定稿版）</a></li>
-    <li><a href="http://www.bennychia.com/pku-en-2015" target="_blank">Peking University 4（林建华改版）</a></li>
-    <li><a href="http://www.bennychia.com/pku-en" target="_blank">Peking University 3（王恩哥定稿版）</a></li>
-    <li><a href="http://www.bennychia.com/pku-en-b" target="_blank">Peking University 2（王恩哥蓝版）</a></li>
-    <li><a href="http://www.bennychia.com/pku-en-a" target="_blank">Peking University 1（王恩哥红版）</a></li>
-    <li><a href="http://z.weishi.qq.com/rule_file.html" target="_blank">微视PC侧Web规范(规范化)</a></li>
+    <li><a href="http://www.bennychia.com/pku-en-2015b" target="_blank">Peking University 5</a></li>
+    <li><a href="http://www.bennychia.com/pku-en-2015" target="_blank">Peking University 4</a></li>
+    <li><a href="http://www.bennychia.com/pku-en" target="_blank">Peking University 3</a></li>
+    <li><a href="http://www.bennychia.com/pku-en-b" target="_blank">Peking University 2</a></li>
+    <li><a href="http://www.bennychia.com/pku-en-a" target="_blank">Peking University 1</a></li>
+    <li><a href="http://z.weishi.qq.com/rule_file.html" target="_blank">微视PC侧Web规范(Rules
+    	)</a></li>
     <li><a href="http://www.bennychia.com/lab/mg/index.html" target="_blank">信息图表和动态图形(CSS3)</a></li>
-    <li><a href="http://www.bennychia.com/lab/cssanimation" target="_blank">物理：运动的小滑块(CSS3动画)</a></li>
+    <li><a href="http://www.bennychia.com/lab/cssanimation" target="_blank">物理：运动的小滑块(CSS3 animation/transition></li>
     <li><a href="http://www.bennychia.com/lab/borderimage" target="_blank">border-image属性和retina处理(CSS3)</a></li>
     <li><a href="http://www.bennychia.com/traditional-decision-maker" target="_blank">高科技午饭选择系统(CSS3)</a></li>
 </ul>
