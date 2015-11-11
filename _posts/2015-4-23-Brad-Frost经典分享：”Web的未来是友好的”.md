@@ -84,5 +84,5 @@ Above all, appreciate to Brad Frost's great work.
 
 **“面向未来的友好设计”微信订阅号：海棠花海**
 
-![Alt text](/images/150423/wechat.jpg)
+![Alt text](/images/wechat.jpg)
 
