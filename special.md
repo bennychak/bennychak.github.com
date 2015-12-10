@@ -7,7 +7,7 @@ tagline: Supporting tagline
 
 <h2>Lab</h2>
 <ul class="posts">
-    <li><a href="http://www.bennychia.com/cssanimate/demo/">CSS动画编辑器</a></li>
+    <li><a href="http://www.futurefriendly.cn/cssanimate/demo/">CSS动画编辑器</a></li>
     <li><a href="http://www.bennychia.com/pku-en-2015b/" target="_blank">Peking University 5</a></li>
     <li><a href="http://www.bennychia.com/pku-en-2015/" target="_blank">Peking University 4</a></li>
     <li><a href="http://www.bennychia.com/pku-en/" target="_blank">Peking University 3</a></li>
