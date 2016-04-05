@@ -9,10 +9,10 @@ tagline: Supporting tagline
 <ul class="posts">
     <li><a href="http://www.futurefriendly.cn/cssanimate/demo/">CSS动画编辑器</a></li>
     <li><a href="http://www.bennychia.com/pku-en-2015b/" target="_blank">Peking University 5</a></li>
-    <li><a href="http://www.bennychia.com/pku-en-2015/" target="_blank">Peking University 4</a></li>
-    <li><a href="http://www.bennychia.com/pku-en/" target="_blank">Peking University 3</a></li>
-    <li><a href="http://www.bennychia.com/pku-en-b/" target="_blank">Peking University 2</a></li>
-    <li><a href="http://www.bennychia.com/pku-en-a/" target="_blank">Peking University 1</a></li>
+    <li><a href="http://www.bennychia.com/pku-en-2015/" target="_blank"><del>Peking University 4</del></a></li>
+    <li><a href="http://www.bennychia.com/pku-en/" target="_blank"><del>Peking University 3</del></a></li>
+    <li><a href="http://www.bennychia.com/pku-en-b/" target="_blank"><del>Peking University 2</del></a></li>
+    <li><a href="http://www.bennychia.com/pku-en-a/" target="_blank"><del>Peking University 1</del></a></li>
     <li><a href="http://z.weishi.qq.com/rule_file.html" target="_blank">微视PC侧Web规范(Rules
     	)</a></li>
     <li><a href="http://www.bennychia.com/lab/mg/index.html" target="_blank">信息图表和动态图形(CSS3)</a></li>
