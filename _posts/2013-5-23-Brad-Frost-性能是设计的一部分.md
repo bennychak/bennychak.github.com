@@ -17,15 +17,17 @@ tags : [翻译, Future Friendly, 响应式设计]
 这种反应简直是下意识的脱口而出，这就很有意思了——为什么人们会觉得facebook烂透了呢？难道他们没有看到，facebook的导航有多么直观？没有意识到facebook改版后的时间轴多么优雅？[facebook在设计上做了他们能做的一切](http://techcrunch.com/2012/09/11/mark-zuckerberg-our-biggest-mistake-with-mobile-was-betting-too-much-on-html5)，用户还想怎样？后来我打开手机体验了一下，立刻明白了——facebook基于html5的App慢得像坨屎。
 
 <img src="/images/performance1.png" />
+
 *performance problem of facebook*
 
 现在的[网页越来越臃肿](http://www.webperformancetoday.com/2012/05/24/average-web-page-size-1-mb)，原因之一是比起web兴起之初，我们有更多的技术可以利用了。这些新兴技术帮我们解决了很多问题，带来了更多优秀体验，同时让我们的网页出现了一些风险。[Phil Hawksworth](http://hawksworx.com)对一些[漂亮的视差滚动网站](http://www.milwaukeepolicenews.com)做了性能的分析，数据显示，设计和性能明显失衡了。
 
 <img src="/images/performance2.jpg" style="max-width:100%; _width:460px" />
+
 *performance problem of a parallax site*
 
->“一些网站搞到15M那么大，对于这些二货，html5也救不了你了”  
->-[Christian Heilmann](https://hacks.mozilla.org/2012/10/broken-promises-of-html5-and-whats-next-a-presentation-at-html5devconf)
+> “一些网站搞到15M那么大，对于这些二货，html5也救不了你了”  
+> -[Christian Heilmann](https://hacks.mozilla.org/2012/10/broken-promises-of-html5-and-whats-next-a-presentation-at-html5devconf)
 
 当然，有些网站利用新技术，如上面提到的视差滚动啊什么的，搞的相当漂亮（也有些二货连视觉都搞得很丑，咱不讨论）。事实却没有那么性感。多数用户却没有足够的耐心坚持看到这些网站的美妙设计。对于一个移动网站来说，[74%的用户](http://www.digitalmall.us/1150/smartphone-users-frustrated-with-mobile-web-experience)在5秒内没有打开你的网站之后就会选择离开，所以设计师和开发者应该明白，你们抓住一个人的心的时间只有区区5秒，这5秒里你一定要让他们看到他们想要的东西，否则他们就跑啦！
 
