@@ -7,11 +7,11 @@ tags : [翻译]
 
 Nicholas C. Zakas近日從yahoo離職，懷著冒險精神投入了自己著迷的新項目。昨天他推出了這幾個禮拜工作的一個階段成果，CSS Lint——CSS規範檢測工具（在線工具地址：[http://csslint.net](http://csslint.net)），議論不發，先做翻譯工作：
 
-##  介紹 CSS Lint Introducing CSS Lint
+## 介紹 CSS Lint Introducing CSS Lint
 
 不久之前，尼克爾沙利文和我宣佈了我們開始在一起工作。今天，我們高興地向各位推薦我們的第一個合作成果：CSS Lint。就像大家猜測的一樣，CSS Lint的目標就是幫助大家寫出更好的CSS代碼。過去的數個星期里，我們花費了大量的時間（週末和夜晚——從近期博客可知Zakas最近沒少熬夜）建設和制定編寫CSS的規則，以幫助大家寫出高效而優秀的代碼。
 
-##  建立規則 The rules
+## 建立規則 The rules
 
 首先，爲了檢測CSS，我們建立了一些規則（更多細節的解釋請點擊 CSS Lint About）。這些規則是：
 
@@ -94,7 +94,7 @@ border和padding屬性會在元素內容的周圍增加空間。由於你不能�
 
 上述規則都是使用一個非常簡單的插件模型建立的，它能夠輕鬆地改變特殊規則或者增加新的規則。打開或者關閉特殊規則的方法尚未暴露在web界面和命令行界面中，但是它受到底層API的支持，所以尋找增加規則的速度很快。
 
-##  在你的項目中 In your build…
+## 在你的項目中 In your build…
 
 當我們高興地介紹web界面的工具時，我們也注意到大家也許想把它包含到你自己的系統架構里。爲了提供這方面的幫助，這裡有為Node.js環境準備的CSS Lint。你可以通過命令行安裝npm包的方式安裝CSS Lint：
 
@@ -106,7 +106,7 @@ border和padding屬性會在元素內容的周圍增加空間。由於你不能�
 
 隨後此工具會和web界面的此工具一樣輸出同樣的信息。
 
-##  開源計劃 Contribute
+## 開源計劃 Contribute
 
 CSS Lint 是 [GitHub](http://github.com/stubbornella/csslint) 上的完全開源的項目。我們正在積極尋找貢獻規則、修改bug或擴展功能的開發人員。此工具的規則是可擴展的，你可以輕鬆地去掉你不需要的規則或者添加你需要的特殊規則，然後建立一個第三方版本來適應你的需要。
 

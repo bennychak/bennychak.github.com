@@ -5,8 +5,8 @@ tagline: "Supporting tagline"
 tags : [响应式设计, Future Friendly, 分享]
 ---
 
->“Blame the Implementation, Not the Technique.”  
->-[Tim Kadlec](http://www.timkadlec.com)
+> “Blame the Implementation, Not the Technique.”  
+> -[Tim Kadlec](http://www.timkadlec.com)
 
 *PPT: 响应式设计 Rebuild as Design*
 
