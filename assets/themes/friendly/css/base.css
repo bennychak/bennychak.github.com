@@ -1,0 +1,32 @@
+/* CSS RESET
+================================================================*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td,header,footer,nav,article{margin:0;padding:0;}
+body{font-size:100%;line-height:1.5;font-family:Helvetica,Arial,sans-serif;-webkit-user-select:none;-webkit-touch-callout:none;}
+header,footer,nav,article{display:block;}
+ol,ul{list-style:none;}
+fieldset,img,video,form{border:0;max-width:100%;vertical-align:top;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+iframe{vertical-align:top;}
+
+/* 默认 */
+strong{font-weight:800;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+
+/* 表单 */
+input,textarea,select,button{outline:none;resize:none;font-size:1rem;line-height:1.5;font-family:Helvetica,Arial,sans-serif;}
+input,button{white-space:nowrap;vertical-align:middle;}
+textarea{resize:none;overflow-y:auto;}
+
+/* 链接 */
+a{text-decoration:none;outline:none;cursor:pointer;}
+a:link,label,body{-webkit-tap-highlight-color:transparent;-webkit-focus-ring-color:transparent;}
+a:hover{text-decoration:none;}
+
+@media (min-width:768px){
+  body{-webkit-user-select:auto;}
+}
