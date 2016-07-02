@@ -5,22 +5,22 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-##二、表格应用
+## 二、表格应用
 
-###1 表格隔行变色（:odd和:even选择器 P157） 
+### 1 表格隔行变色（:odd和:even选择器 P157） 
 
 	$(function(){
 	$("tr:odd").addClass("odd"); //奇数行添加样式
 	$("tr:even").addClass("even"); //偶数行添加样式（:odd和:even选择器中索引从0开始）
 	})
 
-###2 设定含有指定文字内容的某一行变色（:contains选择器 P158） 
+### 2 设定含有指定文字内容的某一行变色（:contains选择器 P158） 
 
 	$(function(){
 	$("tr:contains('内容')").addClass("selected");
 	})
 
-###3 单选框控制表格行高亮（find()方法；:radio，:checked，:has选择器 P158） 
+### 3 单选框控制表格行高亮（find()方法；:radio，:checked，:has选择器 P158） 
 
 	//DOM如：<table><tr><td><input type="radio" /></td></tr>...</table>
 	$(function(){
@@ -34,7 +34,7 @@ tags : [前端开发]
 	});
 	})
 
-###4 复选框控制表格行高亮（:has选择器；使用hasClass()方法进行判断 P160） 
+### 4 复选框控制表格行高亮（:has选择器；使用hasClass()方法进行判断 P160） 
 
 	$("tr:has(:checked)").addClass("selected"); //进入页面时，处理已被选中的表格行
 
@@ -53,7 +53,7 @@ tags : [前端开发]
 	//注：$(this)["addClass"]("selected");等价于$(this).addClass("selected");
 	})
 
-###5 表格展开关闭（toggleClass()和toggle()方法；属性技巧的使用 P161）
+### 5 表格展开关闭（toggleClass()和toggle()方法；属性技巧的使用 P161）
 
 DOM如下：
 
@@ -72,13 +72,13 @@ DOM如下：
 	})
 	</script>
 
-###6 表格内容筛选显示（filter()方法 P163） 
+### 6 表格内容筛选显示（filter()方法 P163） 
 
 	$(function(){
 	$("tr").hide().filter(":contains('李')").show();
 	})
 
-###7 表格内容按输入筛选显示（P163） 
+### 7 表格内容按输入筛选显示（P163） 
 
 	$(function(){
 	$("#filterName").keyup(function(){
