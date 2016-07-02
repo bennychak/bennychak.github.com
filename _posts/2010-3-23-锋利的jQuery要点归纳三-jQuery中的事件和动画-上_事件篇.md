@@ -5,9 +5,9 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-##一、事件
+## 一、事件
 
-###1 加载DOM
+### 1 加载DOM
 
 	$(document).ready(function(){//...})
 DOM加载完毕后执行，在可重复使用上区别于window.onload=function(){//...}
@@ -17,7 +17,7 @@ window内所有对象加载完毕后执行，几等同window.onload=function(){/
 
 另：$(document).ready(function(){//...})的简写方式：$(function(){//...})或$().ready(function(){//...})
 
-###2 事件绑定
+### 2 事件绑定
 
 	$("selector").bind()
 为元素绑定事件，格式：bind(type[,data],fn)，可多次调用  
@@ -30,7 +30,7 @@ type事件类型包括：blur, focus, load, resize, scroll, unload, click, dbcli
 
 （外：方法多次重用可定义局部变量 var $x = $("selector").方法()）
 
-###3 合成事件
+### 3 合成事件
 
 	$("selector").hover(enter,leave)
 模拟光标悬停事件，鼠标进入时触发enter事件，鼠标移出时触发leave事件（代替的是bind("mouseenter")和bind("mouseleave")）  
@@ -54,7 +54,7 @@ P108例：
 	})
 	</script>
 
-###4 事件冒泡
+### 4 事件冒泡
 
 	$("selector").bind("type",function(event){//event:事件对象...})
 event事件对象：只有此函数内部才能访问到，事件处理函数执行完毕后，事件对象就被销毁
@@ -94,7 +94,7 @@ P111例：
 
 （外：事件捕获和事件冒泡是相反的过程，事件捕获是从DOM顶端往下开始触发，jQuery不支持，故本书从略）
 
-###5 事件对象的属性
+### 5 事件对象的属性
 
 	event.type
 获取事件类型
@@ -139,7 +139,7 @@ P111例：
 	event.originalEvent
 指向原始的事件对象
 
-###6 移除事件
+### 6 移除事件
 
 	$("selector").unbind()
 移除元素上的事件，格式：$("selector").unbind([type][,data]);（如果没有参数，则删除所有绑定的事件；如果提供了事件类型参数，则只删除该类型的绑定事件；如果把在绑定时传递的处理函数作为第二个参数，则只有这个特定的事件处理函数会被删除）
@@ -163,7 +163,7 @@ P111例：
 	$("selector").one()
 绑定一个触发一次即被删除的事件，格式：$("selector").one(type[,data],fn);
 
-###7 模拟操作
+### 7 模拟操作
 
 	$("selector").trigger("type");
 模拟用户交互动作，简写方法：$("#selector").type(); 格式：$("selector").trigger(type[,data])
@@ -196,7 +196,7 @@ P119例：
 	$("#btn").trigger("myClick", ["我的自定义","事件"]);
 	</script>
 
-###8 其他用法
+### 8 其他用法
 
 	$("selector").bind("type1 type2",function(){//...})
 一次性绑定多个事件类型

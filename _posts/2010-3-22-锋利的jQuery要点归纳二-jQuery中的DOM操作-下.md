@@ -5,7 +5,7 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-###12 设置和获取HTML、文本和值
+## 12 设置和获取HTML、文本和值
 
 	$("selector").html()
 获取html代码
@@ -29,7 +29,7 @@ tags : [前端开发]
 设置select控件的选中状态，类似有：$(":checkbox").val("check1","check2"); $(":radio").val("radio1");  
 （外：可以使用attr()方法实现同样功能，如：$("select option:eq\(1\)").attr("selected",true); $("\[value=radio2\]:radio"\).attr\("checked",true\);）
 
-###13 遍历节点
+## 13 遍历节点
 
 	$("selector").children()
 获取匹配元素的子元素集合，以数组返回（只考虑子元素，不考虑子元素以下的后代元素）  
@@ -75,7 +75,7 @@ P89例
  
 其他遍历节点的方法（find(), filter(), nextAll(), prevAll(), parent(), parents()等）本书从略
 
-###14 CSS-DOM操作
+## 14 CSS-DOM操作
 
 	$("selector").css("property")
 获取元素样式的property属性的值

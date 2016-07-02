@@ -5,15 +5,15 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-##一、jQuery中的Ajax
+## 一、jQuery中的Ajax
  
-###1 load()方法 load\(url\[,data\]\[,callback\]\)
+### 1 load()方法 load\(url\[,data\]\[,callback\]\)
  
 url: string类型，请求html页面的url地址
 data：object类型，发送至服务器的key/value数据
 callback：function类型，请求完成时的回调函数，无论请求成功或失败
 
-####1.1 载入html文档
+#### 1.1 载入html文档
 
 首先构建一个被load()加载并追加到页面中的html文件，取名为test.html，如下：
 
@@ -45,12 +45,12 @@ callback：function类型，请求完成时的回调函数，无论请求成功�
 
 执行如上代码后，test.html的内容被加载进#resText中。
 
-####1.2 筛选载入的html文档
+#### 1.2 筛选载入的html文档
 
 	<!--在载入的文件名后跟选择器-->
 	$("#resText").load("test.html .para");
 
-####1.3 传递方式
+#### 1.3 传递方式
 
 load()方法的传递方式根据参数data自动指定，如果没有参数传递，则采用GET方式传递；反之，则会自动转换为POST方式。
 
@@ -58,7 +58,7 @@ load()方法的传递方式根据参数data自动指定，如果没有参数传�
 	//...
 	});
 
-####1.4 回调参数
+#### 1.4 回调参数
 
 加载完成（无论请求成败）后继续的操作。提供3个参数：请求返回的内容、请求状态、XMLHttpRequest对象。
 
@@ -68,9 +68,9 @@ load()方法的传递方式根据参数data自动指定，如果没有参数传�
 	// XMLHttpRequest: XMLHttpRequest对象
 	});
 
-###2 $.get()方法和$.post()方法
+### 2 $.get()方法和$.post()方法
 
-####2.1 $.get()
+#### 2.1 $.get()
 
 $.get(url[,data][,callback][,type])
 
@@ -153,7 +153,7 @@ $.get()方法的回调函数只有两个参数data和textStatus，且回调函�
 	<div class="comment">已有评论</div>
 	<div id="resText"></div>
 
-####2.1.1 使用参数
+#### 2.1.1 使用参数
 
 	$("#send").click(function(){
 	$.get("get1.php",{        //确定请求页面的URL地址
@@ -162,7 +162,7 @@ $.get()方法的回调函数只有两个参数data和textStatus，且回调函�
 	},回调函数);
 	});
 
-####2.1.2 数据格式
+#### 2.1.2 数据格式
 
 HTML片段
 
@@ -231,9 +231,9 @@ get方式和post方式传递的数据在服务器端的获取也不相同。php�
 	});
 	});
 
-###3 $.getScript()方法和$.getJson()方法（P187）
+### 3 $.getScript()方法和$.getJson()方法（P187）
  
-####3.1 $.getScript() 动态加载js文件（可以加回调函数）
+#### 3.1 $.getScript() 动态加载js文件（可以加回调函数）
 
 	$(function(){
 	$("#send").click(function(){
@@ -241,7 +241,7 @@ get方式和post方式传递的数据在服务器端的获取也不相同。php�
 	});
 	});
 
-####3.2 $.getJSON() 动态加载json文件，加载后的数据可通过回调函数处理
+#### 3.2 $.getJSON() 动态加载json文件，加载后的数据可通过回调函数处理
 
 	$(function(){
 	$("#send").click(function(){
@@ -275,7 +275,7 @@ get方式和post方式传递的数据在服务器端的获取也不相同。php�
 
 JSONP允许在服务器端集成Script tags返回至客户端，通过JavaScript Callback的形式实现跨域访问。（略）
 
-###4 $.ajax()方法（P191）
+### 4 $.ajax()方法（P191）
 
 $.ajax(options) 该方法只有1个参数
 

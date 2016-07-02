@@ -5,19 +5,19 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-###1 查找元素节点
+## 1 查找元素节点
 
     var $x = $("selector").text()
 
-###2 查找属性节点
+## 2 查找属性节点
 
     var $x = $("selector").attr("property")
 
-###3 创建节点
+## 3 创建节点
 
     var $x = $("html")
 
-###4 插入节点
+## 4 插入节点
 
 	$("selector").append()
 向每个匹配的元素内部追加内容
@@ -42,7 +42,7 @@ tags : [前端开发]
 	$("selector").insertBefore()
 等价于.before()操作符左右互换
 
-###5 移动节点
+## 5 移动节点
 
 本书P70例：
 
@@ -52,24 +52,24 @@ tags : [前端开发]
 	$two_li.insertBefore($one_li);   //移动节点
 	</script>
  
-###6 删除节点
+## 6 删除节点
 
-####6.1 remove()方法
+### 6.1 remove()方法
 
 	$("selector").remove()
 remove()方法将删除selector所有后代节点，元素用remove()方法删除后，仍可以继续使用。另外remove()方法也可以通过传递参数来选择性地删除元素，如$("ul li").remove("li[title!=xxx]");
 
-####6.2 empty()方法
+### 6.2 empty()方法
 
 	$("selector").empty()
 清空selector的所有后代节点
 
-###7 复制节点
+## 7 复制节点
 
 	$("selector").clone()
 如$(this).clone().appendTo("ul")。若要使复制后的新元素带有原元素所拥有的行为，需要传递参数true。如$("selector").clone(true)
 
-###8 替换节点
+## 8 替换节点
 
 	$("selector").replaceWith()
 将所有匹配的元素都替换成指定的HTML或者DOM元素
@@ -77,7 +77,7 @@ remove()方法将删除selector所有后代节点，元素用remove()方法删�
 	$("selector").replaceAll()
 等价于.replaceWith()操作符左右互换
 
-###9 包裹节点
+## 9 包裹节点
 
 	$("selector").wrap()
 将所有匹配的元素单独包裹
@@ -88,7 +88,7 @@ remove()方法将删除selector所有后代节点，元素用remove()方法删�
 	$("selector").wrapInner()
 将每一个匹配的元素的子内容（包括文本节点）用其他结构化的标记包裹起来
 
-###10 属性操作
+## 10 属性操作
 
 	$("selector").attr()
 获取（一个property参数）和设置元素属性（两个参数，property和value），如$("p").attr("title","your title")。如果同时设置多个属性，格式如$("p").attr({"title" : "your title" , "name" : "test"})
@@ -96,7 +96,7 @@ remove()方法将删除selector所有后代节点，元素用remove()方法删�
 	$("selector").removeAttr()
 删除元素属性
 
-###11 样式操作
+## 11 样式操作
 
 	$("selector").attr()
 替换样式

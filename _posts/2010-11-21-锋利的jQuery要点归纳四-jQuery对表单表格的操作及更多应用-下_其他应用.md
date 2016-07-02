@@ -5,9 +5,9 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-##三、其他应用
+## 三、其他应用
 
-###1 网页字体大小控制（P164）
+### 1 网页字体大小控制（P164）
 
 	<span class="bigger">放大</span>
 	<span class="smaller">缩小</span>
@@ -35,7 +35,7 @@ tags : [前端开发]
 	});
 	</script>
 
-###2 网页选项卡（P167）
+### 2 网页选项卡（P167）
 
 	<div class="tab">
 	<div class="tab_menu">
@@ -67,7 +67,7 @@ tags : [前端开发]
 	});
 	</script>
 
-###3 网页换肤（P169）
+### 3 网页换肤（P169）
 
 通过更换css并且记录进cookie实现换肤功能
 

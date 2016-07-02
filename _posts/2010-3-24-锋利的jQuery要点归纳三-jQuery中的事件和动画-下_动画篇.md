@@ -5,9 +5,9 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-##二、动画
+## 二、动画
 
-###1 show()方法和hide()方法
+### 1 show()方法和hide()方法
 
 	$("selector").show()
 从display:none还原元素默认或已设置的display属性
@@ -16,7 +16,7 @@ tags : [前端开发]
 设置元素的display样式为none，等于$("selector").css("display","none")  
 （注：传入参数后，.show()和.hide()方法同时动画改变元素的width,height和透明属性；传入参数控制显隐速度，单位毫秒，如.show(600)，也可传入fast,normal,slow，fast为200毫秒，normal为400毫秒，slow为600毫秒）
 
-###2 fadeIn()方法和fadeOut()方法
+### 2 fadeIn()方法和fadeOut()方法
 
 	$("selector").fadeIn()
 控制透明度在指定时间内从display:none提高至完全显示
@@ -24,7 +24,7 @@ tags : [前端开发]
 	$("selector").fadeOut()
 控制透明度在指定时间内降低至display:none;
 
-###3 slideUp()方法和slideDown()方法
+### 3 slideUp()方法和slideDown()方法
 
 	$("selector").slideUp()
 控制元素高度在指定时间内从下到上缩短至display:none;
@@ -32,7 +32,7 @@ tags : [前端开发]
 	$("selector").slideDown()
 控制元素高度在指定时间内从display:none延伸至完整高度
 
-###4 自定义动画方法animate()
+### 4 自定义动画方法animate()
 
 	$("selector").animate(params,speed,callback);
 params:一个包含样式属性及值的映射，比如{property1:"value1",property2:"value2",...}  
@@ -77,7 +77,7 @@ callback:在动画完成时执行的参数（即回调函数），可选
 	})
 	</script>
 
-###5 动画回调函数
+### 5 动画回调函数
 
 因css()方法不会加入动画队列中，则会马上执行。如若要在动画最后改变selector的css，需要利用回调函数
 
@@ -92,7 +92,7 @@ callback:在动画完成时执行的参数（即回调函数），可选
 	</script>
 （注：动画回调函数适用于jQuery所有的动画效果方法）
 
-###6 停止动画和判断是否处于动画状态
+### 6 停止动画和判断是否处于动画状态
 
 	$("selector").stop()
 结束当前动画，如队列中存在下一个动画则立即执行下一个动画，格式$("selector").stop\(\[clearQueue\]\[,gotoEnd\]\)
@@ -132,7 +132,7 @@ gotoEnd参数设置为true时，可将正在执行的动画直接到达结束时
 	}
 	</script>
 
-###7 其他动画方法
+### 7 其他动画方法
 
 3个专门用于交互的动画方法：toggle(speed,[callback]); slideToggle(speed,[callback]); fadeTo(speed,opacity,[callback])
 
@@ -145,7 +145,7 @@ gotoEnd参数设置为true时，可将正在执行的动画直接到达结束时
 	$("selector").fadeTo()
 把元素的不透明度以渐进方式调整到指定的值，如$("selector").fadeTo(600,0.2);以600毫秒速度将内容调整到20%透明度
 
-###8 动画方法概括
+### 8 动画方法概括
 
 toggle()用来代替hide()和show()
 

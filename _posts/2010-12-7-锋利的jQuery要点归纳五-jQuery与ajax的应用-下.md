@@ -5,9 +5,9 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-##二、序列化元素
+## 二、序列化元素
 
-###1 serialize()方法
+### 1 serialize()方法
 
 先回顾前面讲到的$.get()和$.post()方法：
 
@@ -43,7 +43,7 @@ tags : [前端开发]
 
 	$(":checkbox,:radio").serialize();//把复选框和单选框的值序列化为字符串形式，只会将选中的值序列化。
 
-###2 serializeArray()方法（P196）
+### 2 serializeArray()方法（P196）
 
 将DOM元素序列化后，返回JSON格式的数据
 
@@ -60,7 +60,7 @@ tags : [前端开发]
 	});
 	});
 
-###3 $.param()方法
+### 3 $.param()方法
 
 它是serialize()方法的核心，用来对一个数组或对象按照key/value进行序列化
 
@@ -68,7 +68,7 @@ tags : [前端开发]
 	var k = $.param(obj);
 	alert(k);    //输出a=1&b=2&c=3
 
-##三、jQuery中的Ajax全局事件
+## 三、jQuery中的Ajax全局事件
 
 如：当Ajax请求开始时，会触发ajaxStart()方法的回调函数，当Ajax请求结束时，会触发ajaxStop()方法的回调函数。  
 例如在加载远程内容时添加提示信息，当Ajax请求开始的时候，将此元素显示，当Ajax请求结束后，将此元素隐藏：
@@ -103,4 +103,4 @@ ajaxSuccess(callback)：Ajax请求成功时执行的函数
 	global:false    //不触发全局Ajax事件
 	});
 
-##四、基于jQuery的Ajax聊天室程序讲解（P198，略）
+## 四、基于jQuery的Ajax聊天室程序讲解（P198，略）

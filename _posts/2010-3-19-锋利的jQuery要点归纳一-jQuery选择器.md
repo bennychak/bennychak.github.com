@@ -5,7 +5,7 @@ tagline: "Supporting tagline"
 tags : [前端开发]
 ---
 
-###1 基本选择器
+## 1 基本选择器
 
 	$(#id)
 根据给定的id匹配一个元素
@@ -22,7 +22,7 @@ tags : [前端开发]
 	$(selector1,selector2,...,selectorN)
 将每一个选择器匹配到的元素合并后一起返回
 
-###2 层次选择器
+## 2 层次选择器
 
 	$("ancestor descendant")
 选取ancestor元素里的所有descendant（后代）元素
@@ -36,9 +36,9 @@ tags : [前端开发]
 	$('prev ~ siblings')
 选取prev元素之后的next元素
 
-###3 过滤选择器
+## 3 过滤选择器
 
-####3.1 基本过滤选择器
+### 3.1 基本过滤选择器
 
 	$("selector:first")
 选取第一个元素
@@ -70,7 +70,7 @@ tags : [前端开发]
 	$(":animated")
 选取当前正在执行动画的所有元素
 
-####3.2 内容过滤选择器
+### 3.2 内容过滤选择器
 
 	$(":contains(text)")
 选取含有文本内容为"text"的元素
@@ -84,7 +84,7 @@ tags : [前端开发]
 	$(":parent")
 选取含有子元素或者文本的元素
 
-####3.3 可见性过滤选择器
+### 3.3 可见性过滤选择器
 
 	$(":hidden")
 选取所有不可见的元素
@@ -92,7 +92,7 @@ tags : [前端开发]
 	$(":visible")
 选取所有可见的元素
 
-####3.4 属性过滤选择器
+### 3.4 属性过滤选择器
 
 	$("selector[attribute]")
 选取拥有此属性的元素
@@ -115,7 +115,7 @@ tags : [前端开发]
 	$("selector[selector2][selectorN]")
 用属性选择器合并成一个复合属性选择器，满足多个条件。每选择一次，缩小一次范围，如$\("div\[id\]\[title$='test'\]"\)选取拥有属性id，并且属性title以"test"结束的&lt;div&gt;元素
 
-####3.5 子元素过滤选择器
+### 3.5 子元素过滤选择器
 
 	$(":nth-child(index/even/odd/equation)")
 选取每个父元素下的第index个子元素或者奇偶元素，index从1算起
@@ -129,7 +129,7 @@ tags : [前端开发]
 	$("selector:only-child")
 如果某个元素是它父元素中唯一的子元素，那么将会被匹配。如果父元素中含有其他元素，则不会被匹配
 
-####3.6 表单对象属性过滤选择器
+### 3.6 表单对象属性过滤选择器
 
 	$("selector:enabled")
 选取所有可用元素
@@ -143,7 +143,7 @@ tags : [前端开发]
 	$("selector:selected")
 选取所有被选中的选项元素（select）
 
-###4 表单选择器
+## 4 表单选择器
 
 	$(":input")
 选取所有的&lt;input&gt;,&lt;textarea&gt;,&lt;select&gt;,&lt;button&gt;元素
