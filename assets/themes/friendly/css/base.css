@@ -47,4 +47,8 @@ article{margin:0 5%;}
 body{ color:#666;}
 a{ color:#fa8919}
 
+.logo{ font-size:2rem; text-align:center; padding:1em 0; border-bottom:#fafafa 1px solid}
+nav{ border-bottom:#fafafa 1px solid}
+nav a{ display:block; padding:1em 0;}
+
 
