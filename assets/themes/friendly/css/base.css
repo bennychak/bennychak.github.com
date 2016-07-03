@@ -50,8 +50,9 @@ article{margin:0 5%;}
 body{ color:#666;}
 a{ color:#fa8919}
 
-.logo{ font-size:2rem; text-align:center; padding:1em 0; border-bottom:#f0f0f0 1px solid}
+.logo{ font-size:2rem; text-align:center; padding:.5em 0; border-bottom:#f0f0f0 1px solid}
 nav{ border-bottom:#f0f0f0 1px solid}
+nav ul{ list-style:none; padding:0;}
 nav a{ display:block; padding:1em 0; text-align:center;}
 footer{ margin:0 5%;}
 
