@@ -11,12 +11,12 @@ pygments: # used to be 'true'
 title : 夹竹桃树。海棠花海。
 tagline: Site Tagline
 author :
-  name : Benny Chia
+  name : Benny Chak
   email : bienfantaisie@gmail.com
-  github : bennychia
+  github : bennychak
   twitter : bienfantaisie
   tencentweibo : bienfantaisie
-  feedburner : bennychia
+  feedburner : bennychak
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
